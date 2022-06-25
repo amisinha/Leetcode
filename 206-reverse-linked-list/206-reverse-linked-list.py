@@ -11,12 +11,15 @@ class Solution:
         
         while dummy1:
             values.append(dummy1.val)
-            dummy1= dummy1.next
+            dummy1 = dummy1.next
         
         while dummy2:
             dummy2.val = values.pop()
             dummy2 = dummy2.next
-            
+        
         return head
+        
+        
+  
             
         
